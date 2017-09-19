@@ -62,6 +62,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+
         $rate = new Rate();
         $cRate = $rate->getRate();
         //debug($cRate);
